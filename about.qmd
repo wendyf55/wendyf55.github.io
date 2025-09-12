@@ -2,4 +2,4 @@
 title: "About"
 ---
 
-About this site
+Hello! My name is Wendy. 
