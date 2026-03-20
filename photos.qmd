@@ -14,17 +14,17 @@ toc: false
 
 ::: {.masonry-item}
 
-![Caption for photo one](photos/photo1.jpg){.masonry-photo}
+![Robber Fly](photos/photo1.jpg){.masonry-photo}
 
 ::: {.photo-caption}
-A robber fly at the Beaty, *Eudioctria sackeni*
+A robber fly at the Beaty Biodiversity Museum, *Eudioctria sackeni*
 :::
 
 :::
 
 ::: {.masonry-item}
 
-![Caption for photo two](photos/photo2.jpg){.masonry-photo}
+![Summer 2025](photos/photo2.jpg){.masonry-photo}
 
 ::: {.photo-caption}
 Cranberry field in Pitt Meadows, which I monitored for pests in.
@@ -34,7 +34,7 @@ Cranberry field in Pitt Meadows, which I monitored for pests in.
 
 ::: {.masonry-item}
 
-![Caption for photo three](photos/photo3.jpg){.masonry-photo}
+![More insects under the microscope](photos/photo3.jpg){.masonry-photo}
 
 ::: {.photo-caption}
 A weevil at the Beaty.
@@ -44,7 +44,7 @@ A weevil at the Beaty.
 
 ::: {.masonry-item}
 
-![Caption for photo four](photos/photo4.jpg){.masonry-photo}
+![Collecting insects](photos/photo4.jpg){.masonry-photo}
 
 ::: {.photo-caption}
 At the top of Black Tusk Mountain in Garibaldi National Park for a Bioblitz!
@@ -54,7 +54,7 @@ At the top of Black Tusk Mountain in Garibaldi National Park for a Bioblitz!
 
 ::: {.masonry-item}
 
-![Caption for photo five](photos/photo5.jpg){.masonry-photo}
+![Arizona](photos/photo5.jpg){.masonry-photo}
 
 ::: {.photo-caption}
 Hike photo from my time at the Southwestern Research Station, Arizona.
