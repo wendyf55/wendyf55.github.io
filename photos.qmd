@@ -1,0 +1,67 @@
+---
+title: ""
+page-layout: full
+toc: false
+---
+
+::: {.page-header}
+# Photos! Insects, Life, Etc.
+:::
+
+::: {.section-container}
+
+::: {.masonry-grid}
+
+::: {.masonry-item}
+
+![Caption for photo one](photos/photo1.jpg){.masonry-photo}
+
+::: {.photo-caption}
+A robber fly at the Beaty, *Eudioctria sackeni*
+:::
+
+:::
+
+::: {.masonry-item}
+
+![Caption for photo two](photos/photo2.jpg){.masonry-photo}
+
+::: {.photo-caption}
+Cranberry field in Pitt Meadows, which I monitored for pests in.
+:::
+
+:::
+
+::: {.masonry-item}
+
+![Caption for photo three](photos/photo3.jpg){.masonry-photo}
+
+::: {.photo-caption}
+A weevil at the Beaty.
+:::
+
+:::
+
+::: {.masonry-item}
+
+![Caption for photo four](photos/photo4.jpg){.masonry-photo}
+
+::: {.photo-caption}
+At the top of Black Tusk Mountain in Garibaldi National Park for a Bioblitz!
+:::
+
+:::
+
+::: {.masonry-item}
+
+![Caption for photo five](photos/photo5.jpg){.masonry-photo}
+
+::: {.photo-caption}
+Hike photo from my time at the Southwestern Research Station, Arizona.
+:::
+
+:::
+
+:::
+
+:::

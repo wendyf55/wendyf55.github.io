@@ -1,1 +1,505 @@
-/* css styles */
+/* ============================================
+   WENDY FRANKEL — PORTFOLIO STYLES
+   Clean & Minimal — Warm Neutral Palette
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap');
+
+/* ── CSS Variables ──────────────────────────── */
+:root {
+    --cream: #faf8f4;
+    --warm-white: #f5f2ec;
+    --stone: #e8e2d9;
+    --warm-gray: #9e9589;
+    --charcoal: #2c2825;
+    --ink: #1a1714;
+    --accent: #8b6f47;
+    --accent-light: #c4a882;
+    --accent-pale: #f0e9de;
+
+    --font-display: 'Cormorant Garamond', Georgia, serif;
+    --font-body: 'DM Sans', sans-serif;
+
+    --max-width: 900px;
+    --section-gap: 5rem;
+}
+
+/* ── Base ───────────────────────────────────── */
+body {
+    background-color: var(--cream);
+    color: var(--charcoal);
+    font-family: var(--font-body);
+    font-weight: 300;
+    line-height: 1.75;
+    font-size: 1.05rem;
+}
+
+/* Override Quarto's default container width */
+.quarto-container,
+.page-columns {
+    max-width: var(--max-width) !important;
+    margin: 0 auto;
+}
+
+/* ── Navbar ─────────────────────────────────── */
+.navbar {
+    background-color: var(--cream) !important;
+    border-bottom: 1px solid var(--stone);
+    padding: 1rem 2rem;
+}
+
+.navbar-brand,
+.navbar-title {
+    font-family: var(--font-display);
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--ink) !important;
+    letter-spacing: 0.02em;
+}
+
+.nav-link {
+    font-family: var(--font-body);
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: var(--warm-gray) !important;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    transition: color 0.2s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: var(--accent) !important;
+}
+
+/* ── Hero Section ───────────────────────────── */
+.hero-section {
+    padding: 5rem 2rem 4rem;
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-family: var(--font-display);
+    font-size: clamp(2.8rem, 6vw, 4.2rem);
+    font-weight: 300;
+    color: var(--ink);
+    line-height: 1.1;
+    margin: 0 0 0.5rem 0;
+    letter-spacing: -0.01em;
+}
+
+.hero-text h3 {
+    font-family: var(--font-body);
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: var(--warm-gray);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin: 0 0 1.5rem 0;
+    border: none;
+}
+
+.hero-tagline {
+    font-size: 1.1rem;
+    color: var(--charcoal);
+    font-weight: 300;
+    line-height: 1.6;
+    margin-bottom: 2.5rem;
+    max-width: 420px;
+}
+
+.hero-photo {
+    flex-shrink: 0;
+}
+
+.profile-photo {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid var(--stone);
+    box-shadow: 0 8px 32px rgba(44, 40, 37, 0.12);
+    display: block;
+}
+
+/* ── Buttons ────────────────────────────────── */
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.btn-primary-custom,
+.btn-secondary-custom {
+    display: inline-block;
+    padding: 0.65rem 1.6rem;
+    font-family: var(--font-body);
+    font-size: 0.82rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    border-radius: 2px;
+    transition: all 0.25s ease;
+    cursor: pointer;
+}
+
+.btn-primary-custom {
+    background-color: var(--accent);
+    color: #fff !important;
+    border: 1.5px solid var(--accent);
+}
+
+.btn-primary-custom:hover {
+    background-color: var(--charcoal);
+    border-color: var(--charcoal);
+    color: #fff !important;
+}
+
+.btn-secondary-custom {
+    background-color: transparent;
+    color: var(--accent) !important;
+    border: 1.5px solid var(--accent-light);
+}
+
+.btn-secondary-custom:hover {
+    background-color: var(--accent-pale);
+    border-color: var(--accent);
+    color: var(--accent) !important;
+}
+
+/* ── Divider ────────────────────────────────── */
+main hr {
+    border: none;
+    border-top: 1px solid var(--stone);
+    margin: var(--section-gap) auto;
+    max-width: var(--max-width);
+}
+
+/* ── Section Container ──────────────────────── */
+.section-container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.section-heading {
+    font-family: var(--font-display);
+    font-size: 2rem;
+    font-weight: 300;
+    color: var(--ink);
+    letter-spacing: 0.01em;
+    margin-bottom: 2.5rem;
+    position: relative;
+}
+
+.section-heading::after {
+    content: '';
+    display: block;
+    width: 2.5rem;
+    height: 1.5px;
+    background: var(--accent-light);
+    margin-top: 0.6rem;
+}
+
+/* ── About Grid ─────────────────────────────── */
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 220px;
+    gap: 3rem;
+    align-items: start;
+}
+
+.about-text p {
+    color: var(--charcoal);
+    margin-bottom: 1.2rem;
+}
+
+.about-skills {
+    background: var(--warm-white);
+    border: 1px solid var(--stone);
+    border-radius: 4px;
+    padding: 1.5rem;
+    font-size: 0.95rem;
+}
+
+.about-skills strong {
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--warm-gray);
+    display: block;
+    margin-bottom: 0.75rem;
+}
+
+.about-skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.about-skills li {
+    padding: 0.35rem 0;
+    border-bottom: 1px solid var(--stone);
+    font-size: 0.9rem;
+    color: var(--charcoal);
+}
+
+.about-skills li:last-child {
+    border-bottom: none;
+}
+
+/* ── Projects Grid ──────────────────────────── */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.project-card {
+    background: var(--warm-white);
+    border: 1px solid var(--stone);
+    border-radius: 4px;
+    padding: 1.75rem;
+    transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.project-card:hover {
+    box-shadow: 0 6px 24px rgba(44, 40, 37, 0.1);
+    transform: translateY(-2px);
+}
+
+.project-card h3 {
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--ink);
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    border: none;
+}
+
+.project-card p {
+    font-size: 0.92rem;
+    color: var(--warm-gray);
+    line-height: 1.65;
+    margin-bottom: 1.25rem;
+}
+
+.project-link {
+    font-size: 0.82rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    color: var(--accent) !important;
+    text-decoration: none !important;
+    transition: color 0.2s ease;
+}
+
+.project-link:hover {
+    color: var(--charcoal) !important;
+}
+
+/* ── Contact ────────────────────────────────── */
+.contact-row {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1rem 0 3rem;
+}
+
+.contact-link {
+    font-size: 0.85rem;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--warm-gray) !important;
+    text-decoration: none !important;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 2px;
+    transition: all 0.2s ease;
+}
+
+.contact-link:hover {
+    color: var(--accent) !important;
+    border-bottom-color: var(--accent-light);
+}
+
+/* ── About Page Full Layout ─────────────────── */
+.page-header {
+    padding: 4rem 2rem 0;
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.page-header h1 {
+    font-family: var(--font-display);
+    font-size: clamp(2.4rem, 5vw, 3.5rem);
+    font-weight: 300;
+    color: var(--ink);
+    margin: 0;
+}
+
+.about-full-grid {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 3.5rem;
+    align-items: start;
+    padding-top: 3rem;
+}
+
+.profile-photo-large {
+    width: 200px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 1px solid var(--stone);
+    box-shadow: 0 4px 20px rgba(44, 40, 37, 0.1);
+    display: block;
+}
+
+.about-full-text h2 {
+    font-family: var(--font-display);
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.about-full-text h3 {
+    font-family: var(--font-body);
+    font-size: 0.78rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--warm-gray);
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    border: none;
+}
+
+.about-cta {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+/* ── Responsive ─────────────────────────────── */
+@media (max-width: 680px) {
+    .hero-content {
+        flex-direction: column-reverse;
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .hero-tagline {
+        max-width: 100%;
+    }
+
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-full-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .profile-photo-large {
+        width: 160px;
+        height: 190px;
+    }
+
+    .contact-row {
+        gap: 1.25rem;
+    }
+}
+
+/* ── Masonry Photos ─────────────────────────── */
+.masonry-grid {
+    columns: 3 280px;
+    column-gap: 1.25rem;
+    padding: 1rem 0 4rem;
+}
+
+.masonry-item {
+    break-inside: avoid;
+    margin-bottom: 1.25rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+    background: var(--warm-white);
+    border: 1px solid var(--stone);
+}
+
+.masonry-item:hover .photo-caption {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.masonry-photo {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.masonry-item:hover .masonry-photo {
+    transform: scale(1.03);
+}
+
+.photo-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(26, 23, 20, 0.75));
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    padding: 1.5rem 0.9rem 0.75rem;
+    opacity: 0;
+    transform: translateY(4px);
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 680px) {
+    .masonry-grid {
+        columns: 2 160px;
+    }
+}
+
+@media (max-width: 420px) {
+    .masonry-grid {
+        columns: 1;
+    }
+}
+
+/* ── Hide Quarto boilerplate ────────────────── */
+#title-block-header {
+    display: none;
+}
+
+#quarto-margin-sidebar {
+    display: none;
+}
+
+.quarto-title {
+    display: none;
+}
