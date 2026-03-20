@@ -3,12 +3,13 @@ project:
   output-dir: docs
 
 website:
-  title: "mysite"
+  title: "Wendy Frankel"
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - about.qmd
+        text: About
+      - href: photos.qmd
+        text: Photos
 
 format:
   html:
@@ -16,7 +17,6 @@ format:
       - cosmo
       - brand
     css: styles.css
-    toc: true
-
+    toc: false
 
 

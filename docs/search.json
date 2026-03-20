@@ -1,16 +1,16 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "photos.html",
+    "href": "photos.html",
+    "title": "Photos! Insects, Life, Etc.",
     "section": "",
-    "text": "About this site"
+    "text": "Photos! Insects, Life, Etc.\n\n\n\n\n\n\n\nCaption for photo one\n\n\n\nA robber fly at the Beaty, Eudioctria sackeni\n\n\n\n\n\n\nCaption for photo two\n\n\n\nCranberry field in Pitt Meadows, which I monitored for pests in.\n\n\n\n\n\n\nCaption for photo three\n\n\n\nA weevil at the Beaty.\n\n\n\n\n\n\nCaption for photo four\n\n\n\nAt the top of Black Tusk Mountain in Garibaldi National Park for a Bioblitz!\n\n\n\n\n\n\nCaption for photo five\n\n\n\nHike photo from my time at the Southwestern Research Station, Arizona."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "mysite",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "objectID": "index.html#hello",
+    "href": "index.html#hello",
+    "title": "About Me",
+    "section": "Hello",
+    "text": "Hello\nThank you for stopping by my website!\n\nWhat I Do\nThroughout my education and professional experience in ecology, I developed a deep awareness of the scale and urgency of global biodiversity loss, alongside knowledge of the practical challenges of quantifying and interpreting it. That gap between the problem and the data drove me to pursue a Master’s of Data Science at UBC after my degree in Biology.\nI’m passionate about continuing to apply Data Science workflows to Biological Data, assisting in the greater goal of understanding Biodiversity loss.\n\n\nEducation\nMaster of Data Science · University of British Columbia · In Progress\nBachelor of Science in Biology, Honours Specialization Ecology and Environmental Biology · University of British Columbia · 2020–2024\n\n\nDownload My Full CV Get In Touch"
   }
 ]
